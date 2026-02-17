@@ -39,7 +39,7 @@ Deployment-
  Database: MongoDB Atlas
 
 
-⚡Real-Time Implementation
+# Real-Time Implementation
 
 Each poll functions as a dedicated Socket.io room.
 
@@ -59,7 +59,7 @@ UI updates without page refresh.
 This ensures efficient real-time synchronization across multiple devices.
 
 
-🔐 Fairness / Anti-Abuse Mechanisms
+# Fairness / Anti-Abuse Mechanisms
 # IP-Based Vote Restriction (Backend)
 
 Each vote stores the voter’s IP address.
@@ -90,7 +90,7 @@ Votes persist after page refresh.
 Real-time updates sync across multiple browsers/devices.
 Graceful handling of backend errors.
 
-⚠️ Known Limitations
+# Known Limitations
 IP-based restriction does not prevent VPN usage.
 No authentication system implemented.
 No CAPTCHA or advanced bot protection.
