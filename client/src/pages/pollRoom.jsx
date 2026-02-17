@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import API from "../services/api";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://real-time-poll-room-8z43.onrender.com/");
 
 function PollRoom() {
   const { id } = useParams();
