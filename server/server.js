@@ -35,7 +35,7 @@ app.set("io", io);
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://real-time-poll-room-lovat.vercel.app/"
+    "https://real-time-poll-room-lovat.vercel.app"
   ],
   credentials: true,
 }));
